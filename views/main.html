@@ -1,0 +1,12 @@
+<div class="itemsList" ng-controller="MainController">
+  <div class="item" ng-repeat="item in items">
+    <h2>Product: {{item.title}}</h2>
+    <h3>Price: {{item.price | currency}}</h3>
+    <a href="#/{{item.listing_id}}"><img class="itemPhoto" ng-src='{{item.MainImage.url_170x135}}'></a><br/ >
+    <!--<p>Title: {{item.title}}</p>-->
+    <a href="wholeItemUrl" {{item.url}}>Find me at Etsy!</a><br/ >
+    <button class="navButt" type="button" name="button">view</button>
+    <button class="navButt" type="button" name="button">add</button>
+  </div>
+
+</div>

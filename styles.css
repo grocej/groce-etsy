@@ -1,0 +1,57 @@
+body {
+  background-image: url(images/gambling-hurt-credit.jpg);
+}
+.betsy-logo  {
+  margin-bottom: 2em;
+  margin-left: 2.7em;
+  margin-right: 0;
+  min-width: 25%;
+  max-width: 100%;
+  /*position: absolute;*/
+  position:fixed;
+}
+.nav-logo-stuff {
+  display:flex;
+  flex-direction: column;
+  width: 20%;
+}
+.navButt {
+  opacity: .6;
+  border-radius: 50%;
+  border-color: red;
+  background-color: #89181A;
+  color: white;
+  width: 50px;
+  height: 3em;
+  margin-top: .5em;
+  margin-right: 0;
+  align-items: baseline;
+  max-width: 100%;
+}
+.navButt:hover {
+  background:#7f7f7f;
+  color: #89181A;
+}
+a {
+  margin-bottom: 1.5em;
+}
+.data-list-right {
+  width: 50%;
+  color: white;
+  font-family: Helvetica, Arial, monospace, sans-serif;
+  background:#7f7f7f;
+  background:rgba(0,0,0,0.5);
+  padding: 2em 2em;
+  float: right;
+  margin-right: 10em;
+  display: flex;
+}
+a {
+  color: #9f8989;
+  text-decoration: none;
+}
+.itemPhoto {
+  border: 1px solid white;
+  padding: 3px;
+  margin-bottom: .7em;
+}
