@@ -1,0 +1,18 @@
+<div ng-controller="MainController"></div>
+
+<div class="container">
+    <article class="itemDetailView" data-id="{{listing_id}}">
+      <header>
+        <a href="#/{{item.listing_id}}"></a>
+        <h2>Product: {{item.title}}</h2>
+        <h3>Price: {{item.price | currency}}</h3>
+        <img class="item-lg-photo" ng-src="{{item.MainImage.url_fullxfull}}" alt="" />
+      </header>
+      <div class="Contain">
+          <button class="navButt" type="button" name="button">view</button>
+          <button class="navButt" type="button" name="button">add</button>
+          <button class="navButt" type="button" name="button"><a href="/#/">back</a></button>
+      </div>
+    </article>
+  </div>
+</div>
