@@ -2,7 +2,8 @@
   'use strict';
   angular
     .module('betsy', [
-     'ngRoute'
+     'ngRoute',
+     'underscore'
     ])
     .config(function ($routeProvider) {
       $routeProvider
@@ -14,7 +15,7 @@
           templateUrl: 'views/myCart.html',
           controller: 'ItemController'
         })
-        .when('/itemId', {
+        .when('/:itemId', {
           templateUrl: 'views/itemDetail.html',
           controller: 'MainController'
         })
@@ -25,6 +26,7 @@
           redirectTo: '/404'
         });
     });
+
     angular
       .module('underscore', [])
       .factory('_', function ($window) {
