@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="itemsList" ng-controller="MainController as mainCtrl">
   <div class="item" ng-repeat="item in items">
     <h2>Product: {{item.title}}</h2>
@@ -7,6 +8,17 @@
     <a href="{{item.url}}"}>Find me at Etsy!</a><br/ >
     <a href="#/{{item.itemId}}"><button class="navButt" type="button" name="button">view</button></a>
     <button class="navButt" type="button" name="button"><a href="#/myCart">add</a></button>
+=======
+<div class="itemsList" ng-controller="MainController">
+  <div class="item" ng-repeat="item in items">
+    <h2>Product: {{item.title}}</h2>
+    <h3>Price: {{item.price | currency}}</h3>
+    <a href="#/{{item.listing_id}}"><img class="itemPhoto" ng-src='{{item.MainImage.url_170x135}}'></a><br/ >
+    <!--<p>Title: {{item.title}}</p>-->
+    <a href="wholeItemUrl" {{item.url}}>Find me at Etsy!</a><br/ >
+    <button class="navButt" type="button" name="button">view</button>
+    <button class="navButt" type="button" name="button">add</button>
+>>>>>>> 5130b3598ca97f4f2ea76e5c4cd8913401abf019
   </div>
 
 </div>

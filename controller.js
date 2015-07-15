@@ -2,6 +2,7 @@
   'use strict';
     angular
       .module('betsy')
+<<<<<<< HEAD
       .controller('MainController', function ($scope, ItemListService, $routeParams) {
 
         ItemListService.getAllItems().then(function(items) {
@@ -53,3 +54,12 @@
 //
 //
 //     });
+=======
+      .controller('MainController', function ($scope,ItemListService) {
+        ItemListService.getShoppingCart().then(function(data) {
+          $scope.items = data.data.results;
+          console.log($scope.items);
+        });
+      });
+}());
+>>>>>>> 5130b3598ca97f4f2ea76e5c4cd8913401abf019

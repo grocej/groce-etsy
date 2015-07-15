@@ -1,5 +1,6 @@
 body {
   background-image: url(images/gambling-hurt-credit.jpg);
+<<<<<<< HEAD
   min-height: 100%;
   min-width: 1024px;
 
@@ -8,6 +9,8 @@ body {
   height: auto;
 
   /* Set up positioning */
+=======
+>>>>>>> 5130b3598ca97f4f2ea76e5c4cd8913401abf019
 }
 .betsy-logo  {
   margin-bottom: 2em;

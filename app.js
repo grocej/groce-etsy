@@ -2,8 +2,12 @@
   'use strict';
   angular
     .module('betsy', [
+<<<<<<< HEAD
      'ngRoute',
      'underscore'
+=======
+     'ngRoute'
+>>>>>>> 5130b3598ca97f4f2ea76e5c4cd8913401abf019
     ])
     .config(function ($routeProvider) {
       $routeProvider
@@ -27,11 +31,15 @@
         });
     });
 
+<<<<<<< HEAD
     angular
       .module('underscore', [])
       .factory('_', function ($window) {
         return $window._;
       });
 
+=======
+    
+>>>>>>> 5130b3598ca97f4f2ea76e5c4cd8913401abf019
 
 }());
